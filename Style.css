@@ -1,0 +1,196 @@
+:root {
+    --color-general: #333;
+    --color-titulos: #333;
+    --fondo-gris: #f3f3f3;
+    --color-rojo: #af221d;
+    --fondo-footer: #333;
+    --letra-footer: #fff;
+    --fuente-hero: 'Poppins', sans-serif;
+    --fuente-texto: 'Rubik', sans-serif;
+}
+
+body {
+    font-family: var(--fuente-texto);
+    color: var(--color-general);
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background: url("../img/bg-valentines.jpg") no-repeat center center/cover;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    color: white;
+    text-align: left;
+}
+
+
+
+.hero-content {
+    max-width: 600px; 
+}
+
+.hero h1 {
+    font-family: var(--fuente-hero);
+    font-size: 4rem; 
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+.hero .btn-primary {
+    background-color: var(--color-rojo); 
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.guarantee {
+    padding: 50px 0;
+}
+
+.guarantee h6 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.guarantee h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.guarantee p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.guarantee ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.guarantee li {
+    display: flex;
+    align-items: start;
+    margin-bottom: 15px;
+}
+
+.guarantee i {
+    font-size: 2rem;
+    color: var(--color-rojo);
+    margin-right: 15px;
+}
+
+    background-color: var(--fondo-gris);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.balance h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.balance p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.balance .col-md-4 {
+    text-align: center;
+}
+
+.balance img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.balance h6 {
+    color: var(--color-rojo);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hotline {
+    background-color: var(--fondo-gris);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hotline h6 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--color-rojo);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hotline h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hotline p {
+    font-size: 1.2rem;
+    color: var(--color-general);
+}
+
+.footer {
+    background-color: var(--fondo-footer);
+    color: var(--letra-footer);
+    padding: 50px 0;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer p, .footer a {
+    font-size: 1rem;
+    color: var(--letra-footer);
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero .btn-primary {
+        font-size: 0.9rem;
+    }
+
+    .guarantee h2 {
+        font-size: 2rem;
+    }
